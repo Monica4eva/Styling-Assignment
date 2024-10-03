@@ -1,0 +1,88 @@
+h1{
+    color: rgb(88, 3, 31); font-size: 50px;}
+    .colored-paragraph {
+        text-align: center; 
+        color: rgb(209, 48, 101); 
+        text-decoration: none; font-weight: bolder;
+        font-size: inherit; font-size: 20px;
+    }
+    
+    .fill-in-form {
+        text-align: left; 
+        color: rgb(160, 62, 95); 
+        text-decoration: underline; 
+    font-size: 18px; font-weight: bold;
+    }
+    
+
+body{
+    background-color: rgb(233, 173, 193);  background-image: url(BACKGROUNDYES.jpg);background-position: left; background-position: center;background-repeat: no-repeat; background-size: cover;
+}
+
+form{
+    color: rgba(139, 107, 2, 0.849);
+}
+form{
+    background-color: rgb(224, 170, 186);  
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;  
+    max-width: 1000px;  
+    border: 5px solid #b5b805;  
+    border-radius: 10px;  
+}
+.styled-button {
+    background-color: rgb(88, 3, 31); 
+    color: rgb(168, 118, 9); 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s; 
+}
+
+.styled-button:hover {
+    background-color: rgb(150, 30, 60); 
+    transform: scale(1.05); 
+}
+
+.styled-button:active {
+    transform: scale(0.95); 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+textarea {
+    border-radius: 4px; 
+    padding: 10px;
+    border: 1px solid #c7bb17;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block; 
+    margin-right: 10px; /
+}
+
+
+button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #8b0000;
+    color: white;
+    cursor: pointer;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
